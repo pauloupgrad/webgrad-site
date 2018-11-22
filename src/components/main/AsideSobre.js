@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class AsideSobre extends Component {
-  render() {
+const AsideSobre = props => { 
     return (      
     <div class="card card_aside">
         <div class="card-body">
@@ -17,6 +16,5 @@ class AsideSobre extends Component {
     </div>                    
     );
   }
-}
 
 export default AsideSobre;

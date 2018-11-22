@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class BoxPost extends Component {
-  render() {
+const BoxPost = props => { 
     return (      
         <article className="card card_post">
             <img className="card-img-top" src="%PUBLIC_URL%/../assets/img/tamb/thamb1.jpg" alt="Card image cap"/>
@@ -11,9 +10,8 @@ class BoxPost extends Component {
               <p className="card-text text-justify">Some quick example text to build on the card title ...</p>
               <a href="#" className="btn btn-post">Go somewhere</a>
             </div>
-        </article>                     
+        </article>                    
     );
   }
-}
 
 export default BoxPost;

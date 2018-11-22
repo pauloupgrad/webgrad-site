@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import BoxPost from './main/BoxPost';
 import AsideSobre from './main/AsideSobre';
 
-class Main extends Component {
-  render() {
+const Main = props => { 
     return (
       <div className="container pt-5">      
        <section className="row">
@@ -25,6 +24,5 @@ class Main extends Component {
       </div>
     );
   }
-}
 
 export default Main;

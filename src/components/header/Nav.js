@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class Nav extends Component {
-  render() {
+const Nav = props => {  
     return (
       <div className="container">
         <nav className="navbar navbar-expand-md navbar-light bg-menu">
@@ -39,6 +38,6 @@ class Nav extends Component {
       </div>
     );
   }
-}
+
 
 export default Nav;
